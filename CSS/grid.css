@@ -1,0 +1,137 @@
+body{
+    display: grid;
+}
+
+.head{
+    background: hsba(0, 63%, 96%, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #F55A5A;
+    width: 550px;
+    height: 55px;
+    margin-left: 27%;
+}
+
+#globe{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 213px;
+}
+
+span{
+    background: hsba(0, 0%, 100%, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 20px;
+    color: #FFFFFF;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 9px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: #F55A5A 2px solid;
+    margin-top: 135px;
+    width: 40%;
+    height:250px;
+    margin-left: 360px;
+}
+
+.grid-item{
+    display: grid;
+}
+
+.grid-item img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;    
+    column-gap: 9px;
+}
+
+.grid-item-2{
+    display: grid;
+}
+
+.grid-item-3{
+    display: grid;    
+    width: 40px;
+    height: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.grid-item-4{
+    display: grid;
+    width: 106px;
+    height: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.grid-item-5{
+    display: grid;
+}
+
+ .grid-item-5 p{
+    width: 326px;
+    height: 40px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;    
+ }
+
+.grid-item-6{
+    display: grid;
+}
+
+.grid-item-6 p{
+    width: 319px;
+    height: 11px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.grid-item-7{
+    display: grid;
+}
+
+.grid-item-7 p{
+    width: 326px;
+    height: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A
+}
